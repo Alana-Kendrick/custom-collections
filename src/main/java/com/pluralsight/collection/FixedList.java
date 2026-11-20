@@ -9,4 +9,12 @@ public class FixedList<T> {
     public FixedList(int maxSize) {
         this.maxSize = maxSize;
     }
+
+    public void add(T item) {
+        items.add(item);
+    }
+
+    public List<T> getItems() {
+        return items;
+    }
 }
